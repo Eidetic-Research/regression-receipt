@@ -1,6 +1,6 @@
-name: PatchProof Regression Receipt
+name: Eidetic Research Regression Receipt
 description: "Require regression-test evidence for bugfix PRs."
-author: njlane314
+author: Eidetic Research
 branding:
   icon: shield
   color: blue

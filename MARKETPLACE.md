@@ -1,6 +1,6 @@
 # GitHub Marketplace Publishing Notes
 
-Release title: PatchProof Regression Receipt v0.1.2
+Release title: Eidetic Research Regression Receipt v0.1.3
 
 Primary category: Testing
 Secondary category: Code quality
@@ -10,15 +10,15 @@ Require regression-test evidence for bugfix PRs.
 
 Release notes:
 
-PatchProof Regression Receipt is a local-first GitHub Action and CLI from PatchProof. It produces JSON, Markdown, GitHub Step Summary output, and optional stable PR comments. It supports warn/fail modes, explicit base/head refs, and repository-local configuration.
+Eidetic Research Regression Receipt is a local-first GitHub Action and CLI from Eidetic Research. It produces JSON, Markdown, GitHub Step Summary output, and optional stable PR comments. It supports warn/fail modes, explicit base/head refs, and repository-local configuration.
 
-This release prepares the action for GitHub Marketplace publication:
+This release prepares the action for GitHub Marketplace publication under the Eidetic Research brand:
 
 - single root action metadata file: action.yml
 - no workflow files in the action repository
 - bundled Node 20 action entrypoint in dist/index.js
 - source-available BUSL-1.1 commercial licensing
-- versioned CLI and action output: 0.1.2
+- versioned CLI and action output: 0.1.3
 - public open-source repository use allowed; commercial/private use requires a paid license
 
 Suggested listing summary:
