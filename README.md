@@ -45,7 +45,7 @@ jobs:
           node-version: 20
           cache: pnpm
       - run: pnpm install --frozen-lockfile
-      - uses: eideticresearch/regression-receipt@v1
+      - uses: Eidetic-Research/regression-receipt@v1
         with:
           mode: warn
           comment: true
