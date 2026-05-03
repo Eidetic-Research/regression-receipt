@@ -1,4 +1,4 @@
-name: Eidetic Research Regression Receipt
+name: Eidetic Research Exhibit
 description: "Require regression-test evidence for bugfix PRs."
 author: Eidetic Research
 branding:

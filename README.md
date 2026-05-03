@@ -1,4 +1,4 @@
-# Regression Receipt
+# Exhibit
 
 A bug is not closed until the regression test exists.
 
@@ -22,7 +22,7 @@ pnpm regression-receipt scan --base origin/main --head HEAD --format json
 Use `actions/checkout` with full history so git comparisons are available.
 
 ```yaml
-name: Regression Receipt
+name: Exhibit
 
 on:
   pull_request:
@@ -45,7 +45,7 @@ jobs:
           node-version: 20
           cache: pnpm
       - run: pnpm install --frozen-lockfile
-      - uses: Eidetic-Research/regression-receipt@v1
+      - uses: Eidetic-Research/exhibit@v1
         with:
           mode: warn
           comment: true
