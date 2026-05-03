@@ -50503,7 +50503,7 @@ function preprocess(fn, schema) {
 
 
 const TOOL_NAME = 'regression-receipt';
-const VERSION = '0.1.1';
+const VERSION = '0.1.2';
 const DEFAULT_CONFIG_PATH = '.github/regression-receipt.yml';
 const VerifySchema = object({
     enabled: schemas_boolean().default(false),

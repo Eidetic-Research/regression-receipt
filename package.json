@@ -1,6 +1,6 @@
 {
   "name": "regression-receipt",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A bugfix quality gate that requires evidence of a regression test.",
   "type": "module",
   "license": "BUSL-1.1",

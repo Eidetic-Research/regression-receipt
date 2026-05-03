@@ -4,7 +4,7 @@ import { parse } from 'yaml';
 import { z } from 'zod';
 
 export const TOOL_NAME = 'regression-receipt';
-export const VERSION = '0.1.1';
+export const VERSION = '0.1.2';
 export const DEFAULT_CONFIG_PATH = '.github/regression-receipt.yml';
 
 const VerifySchema = z.object({

@@ -1,6 +1,9 @@
-name: Regression Receipt
-description: "A bugfix quality gate that requires evidence of a regression test."
+name: PatchProof Regression Receipt
+description: "Require regression-test evidence for bugfix PRs."
 author: njlane314
+branding:
+  icon: shield
+  color: blue
 inputs:
   base:
     description: "Base git ref. Defaults to the pull request base SHA/ref."
